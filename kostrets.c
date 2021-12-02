@@ -25,7 +25,6 @@ int main(){
           if(C[i]>0.00 || i<11){
           dob=C[i]*C[i];
           i++;
-          printf("i=%i\n", i);
           
           }
       }
