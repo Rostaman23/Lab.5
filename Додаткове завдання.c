@@ -23,7 +23,7 @@ int main(){
       for(int i=0; i<12; i++){
          if (k<10){
         C[i]=A[i]/k;
-        printf("C[%i]=%5.2f\n",i, C[i]);
+        printf("C[%i]=%2.2f\t",i, C[i]);
          }
      
      }
@@ -31,3 +31,4 @@ int main(){
      
     return 0;
 }
+
